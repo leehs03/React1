@@ -1,17 +1,10 @@
-import reactLogo from './assets/react.svg'
-
-function Profile(){
-  return(
-    <>
-    </>
-  )
-}
+import MovieHeroes from './components/MovieHeroes'
 
 
 export default function App() {
   return (
     <>
-      <img className="button-icon" src={reactLogo} alt="" />          
+      <MovieHeroes/>  
     </>
   )
 }
