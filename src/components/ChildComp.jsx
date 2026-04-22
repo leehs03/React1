@@ -1,4 +1,4 @@
-
+// 
 export default function ChildComp({imageInfo, width=300, height}){
   return(
     <>
